@@ -1,0 +1,1 @@
+{"uuid":"717ee1ca-6e56-47b9-9d70-0d4e7c51e1b4","name":"com.scrollTest.api.tests.TestPatchPerson","children":["68c4514a-6ae8-482b-9996-2dde43b3d6cb"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1683036412845,"stop":1683036413390}],"afters":[],"start":1683036412800,"stop":1683036414848}
