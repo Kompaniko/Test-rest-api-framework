@@ -8,8 +8,7 @@ import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertNotNull;
 
 public class TestPostPerson {
-    //Init - PersonServiceHelper
-    // Assert Create The person and Verify it
+
 
     private PersonServiceHelper personServiceHelper;
 

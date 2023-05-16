@@ -27,9 +27,6 @@ import static org.testng.internal.DataProviderLoader.*;
 
 public class PersonServiceHelper {
 
-    // We need to read the config variables
-    // Rest Assured about the URL, port
-    // Make a Get REQUEST on this url and send the data to TestGetPerson
 
     private static final String BASE_URL = Config.getBaseUrl();
     private static final int PORT = Config.getPort();
@@ -64,8 +61,8 @@ public class PersonServiceHelper {
 
        Person person = new Person();
        person.setId(4567);
-       person.setFirstName("Jopa");
-       person.setLastName("Tigra");
+       person.setFirstName("Artur");
+       person.setLastName("Mikhailov");
        person.setPhoneNumbers("1234562321234562131");
        person.setAddres("giolas");
        person.setAge(12);
@@ -86,8 +83,8 @@ public class PersonServiceHelper {
 
     public Response updatePerson(Integer id) {
         Person person = new Person();
-        person.setFirstName("Jopa");
-        person.setLastName("Tigra");
+        person.setFirstName("Artur");
+        person.setLastName("Mikhailov");
         person.setAge(34);
         person.setAddres("giolas");
         person.setPhoneNumbers("1234562321234562131");
